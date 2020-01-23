@@ -6,7 +6,7 @@ def mvnHome = tool 'M3'
 stage('checkout')
 {
 
-git url="https://github.com/SnehalAj/JenkinsOnEC2MavenProject.git"
+git url : "https://github.com/SnehalAj/JenkinsOnEC2MavenProject.git"
 
 }
 
